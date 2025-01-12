@@ -9,11 +9,13 @@ Trotz Fortschritten in der Kartenerstellung bleibt die Zugänglichkeit von Karte
 ## Beispiele
 
 ### Einfluss von Kartenbeschriftungen
+
 Untersuchungen zeigen, dass VLMs Karten auch ohne Beschriftungen erkennen können. Zum Beispiel eine Karte von London im Maßstab 1:50.000, welche mit und ohne Beschriftungen und dem Prompt "What do you see?" einem VLM übergeben wurde:
 - **Mit Beschriftungen:** "The image is a detailed map of London, England, showing the city's streets, landmarks, and surrounding areas."
 - **Ohne Beschriftungen:** "The image displays a detailed map of London, England, showing the city's streets, landmarks, and waterways."
 
 ### Auswirkungen des Kartenmaßstabs
+![scales](https://github.com/user-attachments/assets/c541a962-9be3-4ec0-a99c-924d79a97d9e)
 Der Maßstab beeinflusst die Fähigkeit von VLMs, Orte zu erkennen. Beispiel: New York in verschiedenen Maßstäben:
 - Maßstäbe 1:200.000 bis 1:50.000: Der Ortsname "New York" ist Teil der Beschreibungsgenerierung.
 - Maßstab 1:10.000: Die Beschreibung enthält nur „a city“, ohne New York explizit zu nennen.
@@ -28,4 +30,4 @@ Die Arbeit mit VLMs im Kontext der Kartographie wirft grundlegende Fragen auf:
 Die präsentierten Daten und weitere Informationen sind (hier) auf GitHub verfügbar: [GitHub Repository](https://github.com/grndng/NIAM2025).
 
 ## Über uns
-Wir sind das Labor für Geoinformatik und Geovisualisierung, **g2lab** (g2lab.net), der HafenCity Universität Hamburg. Unsere Arbeit konzentriert sich auf die Visualisierung spatiotemporaler Daten, um Entscheidungsprozesse zu unterstützen. Darüber hinaus beschäftigen wir uns damit, Unsicherheiten mit dem zu modellieren, Nutzer:innen bessere Entscheidungsgrundlagen zur Verfügung zu stellen.
+Wir sind das Labor für Geoinformatik und Geovisualisierung, **g2lab** ([g2lab.net](http://www.geomatik-hamburg.de/g2lab/), der HafenCity Universität Hamburg. Unsere Arbeit konzentriert sich auf die Visualisierung spatiotemporaler Daten, um Entscheidungsprozesse zu unterstützen. Darüber hinaus beschäftigen wir uns damit, Unsicherheiten mit dem zu modellieren, Nutzer:innen bessere Entscheidungsgrundlagen zur Verfügung zu stellen. Darüber beschäftigt sich die [CartoAI Kommission der DGfK](https://dgfk.net/kommission/commission-on-cartography-and-artificial-intelligence/) ausgiebig mit dem Thema "Karten und KI".
