@@ -9,7 +9,7 @@ Trotz Fortschritten in der Kartenerstellung bleibt die Zugänglichkeit von Karte
 ## Beispiele
 
 ### Einfluss von Kartenbeschriftungen
-
+![london_labelnolabel](https://github.com/user-attachments/assets/d001c837-2fd0-4140-aab8-f159ea9a497f)
 Untersuchungen zeigen, dass VLMs Karten auch ohne Beschriftungen erkennen können. Zum Beispiel eine Karte von London im Maßstab 1:50.000, welche mit und ohne Beschriftungen und dem Prompt "What do you see?" einem VLM übergeben wurde:
 - **Mit Beschriftungen:** "The image is a detailed map of London, England, showing the city's streets, landmarks, and surrounding areas."
 - **Ohne Beschriftungen:** "The image displays a detailed map of London, England, showing the city's streets, landmarks, and waterways."
